@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+.underline-p {
+	content: '';
+	border-top: 2px solid #ff3859;
+	width: 80px;
+	display: block;
+	margin-bottom: 8px;
+	margin: 0 auto;
+}
+
+.font-text {
+	font-family: 'Josefin Slab', serif;
+	
+}
+
+.bg-parallax-pp {
+    background:url('/src/assets/img/parallax.jpg') fixed;
+    background-repeat: no-repeat;
+}

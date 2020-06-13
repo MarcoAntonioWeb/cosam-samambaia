@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+.bg-parallax-nh {
+    background:url('/src/assets/img/parallax.jpg') fixed;
+    background-repeat: no-repeat;
+}
+
+
+.bg-historia {
+	background: linear-gradient(131.26deg,#312b45 30%, #ff3859 100%);
+
+}
+
+.bg-borda {
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+}
+
+.underline-historia {
+	content: '';
+	border-top: 2px solid #ff3859;
+	width: 80px;
+	display: block;
+	margin-bottom: 8px;
+	margin: 0 auto;
+}
+
+.font-text {
+	font-family: 'Josefin Slab', serif;
+	
+}	

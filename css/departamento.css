@@ -1,0 +1,114 @@
+/** Departamento infantil **/
+.main {
+    display: block;
+    float: left;
+}
+
+#ministerios {
+    width: 100%;
+    float: left;
+    background: #fff;
+    
+}
+
+#ministerios .ministerio {
+    width: 100%;
+    float: left;
+}
+
+.bg-fundo {
+    background:url('/src/assets/img/louvor1.jpg');
+    width: 482px;
+    height: 600px !important;
+}
+
+#ministerios .ministerio .fundo {
+    background-attachment: fixed;
+    height: 600px;
+    margin-right: 80px;
+    width: 482px;
+    float: left;
+}
+
+#ministerios .ministerio .info {
+    font-size: "open_sanslight";
+    padding: 120px 80px;
+    padding-top: 120px;
+    padding-right: 80px;
+    padding-bottom: 120px;
+    padding-left: 80px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#ministerios .ministerio .info h3 {
+    font-family: "open_sansextrabold";
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #ffa200;
+    margin: 0 0 30px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}    
+
+a.line-button{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .bg-fundo {
+        width: 100% !important;
+    }
+    #ministerios .ministerio .fundo {
+        width: 100% !important;
+    }
+}
+
+
+/***  Fotter  ****/
+.underline-footer {
+	content: '';
+	border-top: 2px solid #de9218;
+	width: 300px;
+	display: block;
+	margin-bottom: 8px;
+	left: 0 auto;
+}
+
+.bg-sub-footer {
+    background-color: #606062;
+
+}
+
+.icon-novo {
+	color:#de9218;
+	font-size: 20px;
+}
+
+.text-fonte {
+font-family: 'Josefin Slab', serif;
+} 
+
+footer {
+	position: relative;
+	float: left;
+}
+
+#copyright {
+    width: 100%;
+    display: block;
+    float: left;
+    height: 88px;
+}
+

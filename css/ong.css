@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+
+/** Cabeçalho e logo marca da ONG ****/
+header#headerong {
+    background: #F0F0F0;
+    width: 100%;
+    min-height: 80px;
+    margin-top: 68px;
+    font-family:'Zhi Mang Xing', cursive; 
+     
+}
+
+header > h1 {
+    font-size: 3vw;
+    letter-spacing: 0.5rem;
+    font-weight: 500;
+
+}
+@media screen and (max-width: 768px) {
+    header > h1 {
+        font-size: 6vw;
+        letter-spacing: 0.1rem;
+        padding: auto;
+    }
+}
+
+/*** Seção sobre Nós *****/
+#sobrenos {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3rem;
+}
+
+.underline-ong {
+    content: '';
+	border-top: 2px solid #ff3859;
+	width: 100px;
+	display: block;
+	margin-bottom: 8px;
+    margin: 0 auto;
+}
+
+.sobrenosp {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/**** Parallax Pintura ****/
+.parallax-pintura {
+    background: url('../img/pintura.png')fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+section#pintura {
+    padding-bottom: 60px;
+
+}
+
+ #btn-pintura {
+    background: none;
+    text-transform: uppercase;
+    border-radius: 35px;
+    border: 2px solid white;
+    padding: 15px 50px;
+    font-weight: 600;
+    margin: auto;
+    display: flex;
+    cursor: pointer;
+    color: white;
+
+ } 
+ 
+ 
+#btn-pintura:hover {
+    background-color:rgb(182, 88, 21) !important;
+	color: white !important;
+   transition: 1s;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+
+/** Configuração Card e imagem**/
+#card-corpo {
+    background: #f0f0f0;
+    ;
+}
+.card-h1 {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.parabens {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #808080;
+}
+
+/**** Parallax Violão ****/
+.parallax-violao {
+    background: url('../img/violao.png')fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/***  Configuração Biblia****/
+#biblia {
+    background: #2c2b47;
+    color: #F0F0F0;
+
+}
+#text-biblia > h4 {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#biblia-corpo {
+    margin-left: 10px;
+}
+
+#text-biblia > p {
+    font-size: 2rem;
+}
+
+#img-biblia {
+    box-shadow: -7px 27px 15px black ;
+}
+
+/**** Parallax bateria ****/
+.parallax-bateria {
+    background: url('../img/bateria.png')fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/*** Configuração do contador ***/
+#contador {
+    background-color: #F0E68C;
+
+}
+#contador header h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#contador header p {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.fatos {
+    text-align: center;
+}
+
+.fatos .icon i {
+    font-size: 50px;
+    color: rgb(209, 23, 23);
+}
+
+.fatos h3 {
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.fatos h4 {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/**** Parallax karate ****/
+.parallax-karate {
+    background: url('../img/reforco.png')fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+.underline-lideranca {
+	content: '';
+	border-top: 2px solid #ff3859;
+	width: 80px;
+	display: block;
+	margin-bottom: 8px;
+	margin: 0 auto;
+}
+
+.bg-parallax {
+	background:url('../img/parallax.jpg') fixed;
+	background-repeat: no-repeat;
+}
+
+
+.card-img-top{
+	border: 2px solid #fff;
+	
+}
+
+.bg-presbitero {
+	 -webkit-box-shadow: 9px 12px 30px rgba(50, 50, 50, 0.77);
+        -moz-box-shadow: 9px 12px 30px rgba(50, 50, 50, 0.77);
+			 box-shadow: 9px 12px 30px rgba(50, 50, 50, 0.77);
+			 
+			 
+}    
+
+
+.bg-diacono {
+	 -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+        -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+        	 box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+img#imgLideranca { 
+	max-height: 300px;
+}
