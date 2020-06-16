@@ -1,0 +1,90 @@
+@media (max-width:578px) {
+    #titleNossaHistoria h1 {
+        font-size: 2rem;
+    }
+
+    #subtitleNossaHistoria h2{
+        font-size: 1.7rem !important;
+    
+    }
+
+    #subtitleNossaHistoria h5{
+        font-size: 1.7rem !important;
+    
+    }
+
+/**** Configuração imagem Nosso Livro *******/
+    #imgLivro {
+        width: 300px !important;
+        height: 350px !important;
+    }  
+    /*** Configuração da linha do footer*****/
+    .underline-footer {
+    content: '';
+	border-top: 2px solid #de9218;
+	width: 270px;
+	display: block;
+	margin-bottom: 8px;
+	left: 0 auto;
+    }
+
+/****  Configuração Nossa Historia ******/    
+    .bg-historia {
+        background: linear-gradient(131.26deg,#312b45 30%, #ff3859 100%);
+        margin: 0 !important;
+        padding: 0 !important;
+    
+    }
+    
+    .bg-borda {
+        border: none;
+        border-radius: 8px;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+/**** Configuração Palavra Pastoral*****/    
+    .palavraPastoral {
+        font-size: 2rem;
+    }
+
+    .nossaHistoria {
+        font-size: 1.2rem !important;
+    }
+
+    .bodynossaHistoria {
+        margin: 0;
+        padding: 0;
+    }
+
+/**** Configuração departamento ****/ 
+  
+
+}
+
+/****   Configuração Departamento*****/
+@media screen and (max-width: 768px) {
+    .bg-fundo {
+        width: 100% !important;
+    }
+    #ministerios .ministerio .fundo {
+        width: 100% !important;
+    }
+
+   
+     #ministerios h3 {
+         font-size: 1.6rem !important;
+         margin-top: 20px;
+         text-align: center;
+     }
+
+     .info {
+         margin: 10px 10px !important;
+         padding: 10px !important;
+     }
+
+     .info button {
+         display: flex;
+         margin: auto !important;
+     }
+}

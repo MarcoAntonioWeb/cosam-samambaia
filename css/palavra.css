@@ -15,6 +15,6 @@
 }
 
 .bg-parallax-pp {
-    background:url('/src/assets/img/parallax.jpg') fixed;
+    background:url('../img/parallax.jpg') fixed;
     background-repeat: no-repeat;
 }

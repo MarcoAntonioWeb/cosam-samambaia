@@ -17,7 +17,7 @@
 }
 
 .bg-fundo {
-    background:url('/src/assets/img/louvor1.jpg');
+    background:url('../img/louvor1.jpg');
     width: 482px;
     height: 600px !important;
 }
@@ -66,14 +66,7 @@ a.line-button{
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-    .bg-fundo {
-        width: 100% !important;
-    }
-    #ministerios .ministerio .fundo {
-        width: 100% !important;
-    }
-}
+
 
 
 /***  Fotter  ****/
