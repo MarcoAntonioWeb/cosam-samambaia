@@ -1,3 +1,9 @@
+// MDB Lightbox Init
+$(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
+
+
 (function($) {
 
     "use strict";
@@ -7,3 +13,5 @@
         delay: 10
     });
 })(jQuery);
+
+
