@@ -25,6 +25,8 @@ header > h1 {
         letter-spacing: 0.1rem;
         padding: auto;
     }
+
+   
 }
 
 /*** Seção sobre Nós *****/
@@ -114,11 +116,16 @@ section#pintura {
 #biblia {
     background: #2c2b47;
     color: #F0F0F0;
+   
+}
 
+#text-biblia {
+    padding-top: 80px;
 }
 #text-biblia > h4 {
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 #biblia-corpo {
     margin-left: 10px;
@@ -130,6 +137,8 @@ section#pintura {
 
 #img-biblia {
     box-shadow: -7px 27px 15px black ;
+    width: 500px;
+    height: 600px;
 }
 
 /**** Parallax bateria ****/

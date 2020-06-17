@@ -57,7 +57,17 @@
         padding: 0;
     }
 
-/**** Configuração departamento ****/ 
+    #biblia {
+        margin: 8px !important;
+        padding: 5px !important;
+    }
+
+    #img-biblia {
+        width: 95%;
+        height: 600px;
+        margin: 15px;
+       
+    }
   
 
 }
