@@ -1,4 +1,4 @@
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     #titleNossaHistoria h1 {
         font-size: 2rem;
     }
@@ -68,7 +68,51 @@
         margin: 15px;
        
     }
-  
+
+/*** Configuração do formulario*****/   
+#formulario {
+    margin: 0;
+    padding: 0;
+} 
+.text-form {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+input {
+
+    width: 100% !important;
+    background: none;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    resize: none;
+    outline: none;
+
+}
+
+.form {
+    width: 90% !important;
+    color: white;
+    margin: 20 20 100 20px;
+}
+
+.form label {
+    margin-bottom: 20px;
+}
+
+.form button {
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 100%;
+}
 
 }
 

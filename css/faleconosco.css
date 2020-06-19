@@ -1,0 +1,47 @@
+#formulario {
+    background: url(../img/fundo-formulario.jpg) fixed;
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+
+.text-form {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+input {
+
+    width: 100%;
+    background: none;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    resize: none;
+    outline: none;
+
+}
+
+.form {
+    color: white;
+    margin: auto;
+    margin-bottom: 100px;
+    width: 35%;
+}
+
+.form label {
+    margin-bottom: 20px;
+}
+
+.form button {
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 100%;
+}
